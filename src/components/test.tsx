@@ -3,7 +3,8 @@ import React from 'react'
 export default function test() {
   return (
     <div>
-      hello
+      <h1>i would like to test if this can work</h1>
+      <p>i can see this are going to work</p>
     </div>
   )
 }
