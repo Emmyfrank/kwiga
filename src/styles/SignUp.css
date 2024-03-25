@@ -1,0 +1,81 @@
+body{
+    color: whitesmoke;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(86, 57, 57);
+    height: 80vh;
+    width: 40%;
+   border-radius: 10px;
+   margin-left: 30%;
+   margin-top: 17px;
+
+   
+    
+}
+.sign-up.names input{
+    display: flex;
+
+    
+    
+}
+input{
+    padding: 15px;
+    width: 70%;
+    margin: 15px;
+    border-radius: 7px;
+    box-shadow: none;
+    cursor: pointer;
+    border: none;
+
+    
+}
+input:hover{
+    background-color: rgb(57, 92, 92);
+    /* padding: 20px; */
+    text-decoration: none;
+    color: whitesmoke;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+}
+.astdv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    padding: 12px;
+    width: 70%;
+    border-radius: 7px;
+    text-decoration: none;
+    border: none;
+}
+.btn:hover{
+    color: whitesmoke;
+    background-color: rgb(57, 92, 92);
+}
+
+.lastdv link{
+    
+    
+}
+.check input{
+    display: flex;
+    flex-direction: row;
+
+}
+.check p input{
+    margin-left: -130px;
+    margin-bottom: -15px;
+}
+
+

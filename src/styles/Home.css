@@ -1,0 +1,13 @@
+.Home{
+    height: 100vh;
+    width: 184vh;
+    background-image: url(../assets/background.jpeg);
+}
+@media (max-width: 720px) {
+
+    .Home{
+        width: 80%;
+        margin: 0px;
+    }
+    
+}

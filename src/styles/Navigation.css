@@ -1,0 +1,35 @@
+.Navigation{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    flex-direction: row;
+    background-color: rgb(185, 214, 214);
+    justify-content: flex-end;
+    
+}
+.Navigation a{
+    text-decoration:  none;
+    font-size: 20px;
+    font-weight: 20px;
+    color: rgb(86, 23, 23);
+}
+.Navigation a:hover{
+    color:whitesmoke;
+    margin-top: 10px;
+}
+.Navigation .logo img{
+    height: 40px;
+    width: 40px;
+}
+.Navigation .logo img:hover{
+    color: aqua;
+    margin-top: 10px;
+
+}
+@media (max-width: 720px) {
+
+    .Navigation a{
+        display: none;
+        
+    }
+}
